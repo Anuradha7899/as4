@@ -1,0 +1,27 @@
+Q(1) Create the Example for Logical Operators?
+Ans(1) There are three types of logical operators in Javascript:
+
+!(NOT): Converts operator to boolean and returns flipped value
+&&:(AND) Evaluates operands and return true only if all are true
+||(OR): Returns true even if one of the multiple operands is true
+
+
+Q(2)Difference between “ == “ and “ === “ operators?
+ANS(2)
+Double equal: The double equal(‘==’) operator tests for abstract equality i.e. it does the necessary type conversions before doing the equality comparison.
+
+Triple equal: The triple equal(‘===’) operator tests for strict equality i.e it will not do the type conversion hence if the two values are not of the same type, when compared, it will return false. 
+
+Q(3)How many operators do we have in JS ?
+ANS(3)..7 types of JavaScript operators:
+ Arithmetic,
+ assignment, 
+ comparison,
+  logical,
+   ternary,
+    typeof,
+     and bitwise operators.
+
+   Q(4)  What is use of parseInt in js?
+Ans(4)The parseInt method parses a value as a string and returns the first integer.
+The JavaScript number parseInt() method parses a string argument and converts it into an integer value. With string argument, we can also provide radix argument to specify the type of numeral system to be used.
